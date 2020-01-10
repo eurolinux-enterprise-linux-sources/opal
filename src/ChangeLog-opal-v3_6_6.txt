@@ -1,0 +1,11 @@
+2009-09-21 00:34  rjongbloed
+
+	* [r23499] version.h:
+	  Update version number for beta v3.6.6
+
+2009-09-22 00:50  rjongbloed
+
+	* [r23504] ., src/sip/sipcon.cxx:
+	  Fixed failure to increment CSEQ on second INVITE after an
+	  authorisation request error.
+
