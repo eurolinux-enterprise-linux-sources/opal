@@ -1,7 +1,7 @@
 Name:		opal
 Summary:	Open Phone Abstraction Library
 Version:	3.10.10
-Release:	2%{?dist}
+Release:	4%{?dist}
 URL:		http://www.opalvoip.org/
 License:	MPLv1.0
 Group:		System Environment/Libraries
@@ -93,6 +93,12 @@ EOF
 %{_libdir}/pkgconfig/opal.pc
 
 %changelog
+* Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 3.10.10-4
+- Mass rebuild 2014-01-24
+
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 3.10.10-3
+- Mass rebuild 2013-12-27
+
 * Tue Oct  8 2013 Matthias Clasen <mclasen@redhat.com> - 3.10.10-3
 - Avoid multilib conflict (related: #881222)
 
